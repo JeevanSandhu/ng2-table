@@ -14,7 +14,7 @@
     "flow.lint": "npm run flow.eslint && npm run flow.tslint",
     "flow.changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -v",
     "flow.github-release": "conventional-github-releaser -p angular",
-    "flow.build:prod": "NODE_ENV=production webpack --progress --color",
+    "flow.build:prod": "webpack --progress --color",
     "flow.build:dev": "webpack --progress --color",
     "flow.serve:dev": "webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
     "flow.serve:prod": "NODE_ENV=production webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
